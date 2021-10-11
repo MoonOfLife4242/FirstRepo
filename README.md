@@ -6,7 +6,7 @@
 int main(int argc, char const *argv[]) {
  	jmp_buf env;
  	int val;
- 	int colet;
+<!--  	int colet; -->
 
  	val = setjmp(env);
 
